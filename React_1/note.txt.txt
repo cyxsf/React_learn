@@ -1,0 +1,22 @@
+1、react fiber 版本更替 16以后的版本处理复杂动画更流畅
+2、组件：网页上的一部分     react中以大写字母开头的都是组件
+3、引入react为了理解组件的相关语法
+4、引入ReactDOM为了让组件渲染到HTML文件的标签中?
+5、React组件创建： class App extends React.Component {
+render() {组件要显示的内容}}
+6、什么是?jsx?语法？
+在定义的组件中：
+a.可以直接返回视图标签不报错。
+b.外层必须要有一个根标签包裹着
+c.根标签内部可以写?js?表达式，eg:{1+2}，会自动编译；
+不能写js?语句，eg：{if(true){return 1+2}  会报错
+d. index.js?中 render?中引用组件时，组件名写在标签符号内。
+7、render()函数return里的内容只能是一个大的jsx
+8、.bind(this)绑定  …:展开运算符
+9、在react 中操作 state中的数据，尽量不直接操作state的数据，而是拿一个变量接收后，再操作该变量
+10、React中存在父子组件的概念，父组件通过属性的形式向子组件传递参数，子组件通过props接收父组件传递过来的参数。
+11、新增样式的两种方式：
+a.style行间样式? ? ?eg: style={{background:"green"}}
+? ? ?第一个花括号是js表达式；第二个花括号是对象
+b.className
+12、用<React.Fragment></React.Fragment>代替最外层的<div></div>标签
